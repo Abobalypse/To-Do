@@ -55,7 +55,9 @@ const deleteTask = (buttonEl) => {
 }
 
 const editTask = (buttonEl) => {
-    /** Step 40 **/
+  const dataArrIndex = taskData.findIndex(
+    (item) => item.id === buttonEl.parentElement.id
+  )
 };
 
 const reset = () => {
